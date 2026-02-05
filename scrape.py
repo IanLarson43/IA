@@ -18,3 +18,36 @@ for mon in raw_data:
         pass
 
 json.dump(data, file)
+
+file = open("data/move_data.json", "w")
+raw_data = requests.get("https://play.pokemonshowdown.com/data/moves.json").json()
+data = []
+
+for move in raw_data:
+    data.append(raw_data[move]["name"])
+
+json.dump(data, file)
+
+file = open("data/item_data.json", "w")
+raw_data = requests.get("https://play.pokemonshowdown.com/data/items.js").text
+data = []
+
+split_raw_data = raw_data.split("name:\"")
+for line in split_raw_data:
+    if not line.startswith("exports.BattleItems"):
+        split_line = line.split("\"")
+        data.append(split_line[0])
+
+json.dump(data, file)
+
+file = open("data/ability_data.json", "w")
+raw_data = requests.get("https://play.pokemonshowdown.com/data/abilities.js").text
+data = []
+
+split_raw_data = raw_data.split("name:\"")
+for line in split_raw_data:
+    if not line.startswith("exports.BattleAbilities"):
+        split_line = line.split("\"")
+        data.append(split_line[0])
+
+json.dump(data, file)
