@@ -51,3 +51,4 @@ for line in split_raw_data:
         data.append(split_line[0])
 
 json.dump(data, file)
+file.close()
