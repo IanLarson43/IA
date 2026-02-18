@@ -1,6 +1,13 @@
 import json
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
+
+
+def list_to_id_dict(a_list):
+    a_dict = {}
+    for i, name in enumerate(a_list):
+        a_dict[name] = i
+    return a_dict
+
 
 dataset_dict = {}
 
@@ -13,47 +20,75 @@ match_file = json.load(open("data/match_data.json"))
 pokemon_list = []
 for mon in pokemon_file.keys():
     pokemon_list.append(mon)
+tera_list = [
+    "None",
+    "Normal",
+    "Fire",
+    "Water",
+    "Electric",
+    "Grass",
+    "Ice",
+    "Fighting",
+    "Poison",
+    "Ground",
+    "Flying",
+    "Psychic",
+    "Bug",
+    "Rock",
+    "Ghost",
+    "Dragon",
+    "Dark",
+    "Steel",
+    "Fairy",
+    "Stellar",
+]
 
-pokemon_encoder = LabelEncoder()
-ability_encoder = LabelEncoder()
-item_encoder = LabelEncoder()
-move_encoder = LabelEncoder()
-
-pokemon_encoder.fit(pokemon_list)
-ability_encoder.fit(ability_file)
-item_encoder.fit(item_file)
-move_encoder.fit(move_file)
+pokemon_dict = list_to_id_dict(pokemon_list)
+ability_dict = list_to_id_dict(ability_file)
+item_dict = list_to_id_dict(item_file)
+move_dict = list_to_id_dict(move_file)
+tera_dict = list_to_id_dict(tera_list)
 
 for match in range(len(match_file)):
     match_dataset = []
+    for mon in match_file[match]["p0 team"]:
+        match_dataset.append(pokemon_dict[mon["name"]])
+        match_dataset.append(item_dict[mon["item"]])
+        match_dataset.append(ability_dict[mon["ability"]])
+        for move in range(4):
+            try:
+                match_dataset.append(move_dict[mon["moves"][move]])
+            except IndexError:
+                match_dataset.append(move_dict["None"])
+        match_dataset.append(tera_dict[mon["tera"]])
+    for i in range(6 - len(match_file[match]["p0 team"])):
+        match_dataset.append(pokemon_dict["None"])
+        match_dataset.append(item_dict["None"])
+        match_dataset.append(ability_dict["None"])
+        for move in range(4):
+            match_dataset.append(move_dict["None"])
+        match_dataset.append(tera_dict["None"])
+
     for mon in match_file[match]["p1 team"]:
-        match_dataset.append(mon["name"])
-        match_dataset.append(mon["item"])
-        match_dataset.append(mon["ability"])
-        for move in mon["moves"]:
-            match_dataset.append(move)
-        match_dataset.append(mon["tera"])
+        match_dataset.append(pokemon_dict[mon["name"]])
+        match_dataset.append(item_dict[mon["item"]])
+        match_dataset.append(ability_dict[mon["ability"]])
+        for move in range(4):
+            try:
+                match_dataset.append(move_dict[mon["moves"][move]])
+            except IndexError:
+                match_dataset.append(move_dict["None"])
+        match_dataset.append(tera_dict[mon["tera"]])
+    for i in range(6 - len(match_file[match]["p1 team"])):
+        match_dataset.append(pokemon_dict["None"])
+        match_dataset.append(item_dict["None"])
+        match_dataset.append(ability_dict["None"])
+        for move in range(4):
+            match_dataset.append(move_dict["None"])
+        match_dataset.append(tera_dict["None"])
 
-    for mon in match_file[match]["p2 team"]:
-        match_dataset.append(mon["name"])
-        match_dataset.append(mon["item"])
-        match_dataset.append(mon["ability"])
-        for move in mon["moves"]:
-            match_dataset.append(move)
-        match_dataset.append(mon["tera"])
+    match_dataset.append(match_file[match]["winner"])
 
-    encoded_match_dataset = []
-    for i in match_dataset:
-        if i in pokemon_file:
-            encoded_match_dataset.append(pokemon_encoder.transform([i])[0])
-        elif i in ability_file:
-            encoded_match_dataset.append(ability_encoder.transform([i])[0])
-        elif i in item_file:
-            encoded_match_dataset.append(item_encoder.transform([i])[0])
-        elif i in move_file:
-            encoded_match_dataset.append(move_encoder.transform([i])[0])
-    encoded_match_dataset.append(match_file[match]["winner"])
-
-    dataset_dict[f"match {match}"] = encoded_match_dataset
+    dataset_dict[f"match {match}"] = np.array(match_dataset, dtype=np.int32)
 
 np.savez("data/dataset.npz", **dataset_dict)

@@ -1,4 +1,17 @@
 {
+    "None": [
+        [
+            "None"
+        ],
+        {
+            "hp": 0,
+            "atk": 0,
+            "def": 0,
+            "spa": 0,
+            "spd": 0,
+            "spe": 0
+        }
+    ],
     "Bulbasaur": [
         [
             "Grass",
@@ -3980,6 +3993,357 @@
             "spe": 48
         }
     ],
+    "Unown-B": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-C": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-D": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-E": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-F": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-G": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-H": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-I": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-J": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-K": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-L": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-M": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-N": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-O": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-P": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-Q": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-R": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-S": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-T": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-U": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-V": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-W": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-X": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-Y": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-Z": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-Exclamation": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
+    "Unown-Question": [
+        [
+            "Psychic"
+        ],
+        {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spa": 72,
+            "spd": 48,
+            "spe": 48
+        }
+    ],
     "Wobbuffet": [
         [
             "Psychic"
@@ -7402,6 +7766,32 @@
             "spe": 36
         }
     ],
+    "Burmy-Sandy": [
+        [
+            "Bug"
+        ],
+        {
+            "hp": 40,
+            "atk": 29,
+            "def": 45,
+            "spa": 29,
+            "spd": 45,
+            "spe": 36
+        }
+    ],
+    "Burmy-Trash": [
+        [
+            "Bug"
+        ],
+        {
+            "hp": 40,
+            "atk": 29,
+            "def": 45,
+            "spa": 29,
+            "spd": 45,
+            "spe": 36
+        }
+    ],
     "Wormadam": [
         [
             "Bug",
@@ -7577,7 +7967,34 @@
             "spe": 34
         }
     ],
+    "Shellos-East": [
+        [
+            "Water"
+        ],
+        {
+            "hp": 76,
+            "atk": 48,
+            "def": 48,
+            "spa": 57,
+            "spd": 62,
+            "spe": 34
+        }
+    ],
     "Gastrodon": [
+        [
+            "Water",
+            "Ground"
+        ],
+        {
+            "hp": 111,
+            "atk": 83,
+            "def": 68,
+            "spa": 92,
+            "spd": 82,
+            "spe": 39
+        }
+    ],
+    "Gastrodon-East": [
         [
             "Water",
             "Ground"
@@ -10485,7 +10902,91 @@
             "spe": 75
         }
     ],
+    "Deerling-Summer": [
+        [
+            "Normal",
+            "Grass"
+        ],
+        {
+            "hp": 60,
+            "atk": 60,
+            "def": 50,
+            "spa": 40,
+            "spd": 50,
+            "spe": 75
+        }
+    ],
+    "Deerling-Autumn": [
+        [
+            "Normal",
+            "Grass"
+        ],
+        {
+            "hp": 60,
+            "atk": 60,
+            "def": 50,
+            "spa": 40,
+            "spd": 50,
+            "spe": 75
+        }
+    ],
+    "Deerling-Winter": [
+        [
+            "Normal",
+            "Grass"
+        ],
+        {
+            "hp": 60,
+            "atk": 60,
+            "def": 50,
+            "spa": 40,
+            "spd": 50,
+            "spe": 75
+        }
+    ],
     "Sawsbuck": [
+        [
+            "Normal",
+            "Grass"
+        ],
+        {
+            "hp": 80,
+            "atk": 100,
+            "def": 70,
+            "spa": 60,
+            "spd": 70,
+            "spe": 95
+        }
+    ],
+    "Sawsbuck-Summer": [
+        [
+            "Normal",
+            "Grass"
+        ],
+        {
+            "hp": 80,
+            "atk": 100,
+            "def": 70,
+            "spa": 60,
+            "spd": 70,
+            "spe": 95
+        }
+    ],
+    "Sawsbuck-Autumn": [
+        [
+            "Normal",
+            "Grass"
+        ],
+        {
+            "hp": 80,
+            "atk": 100,
+            "def": 70,
+            "spa": 60,
+            "spd": 70,
+            "spe": 95
+        }
+    ],
+    "Sawsbuck-Winter": [
         [
             "Normal",
             "Grass"
@@ -11878,6 +12379,244 @@
             "spe": 89
         }
     ],
+    "Vivillon-Archipelago": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Continental": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Elegant": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Garden": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-High Plains": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Icy Snow": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Jungle": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Marine": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Modern": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Monsoon": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Ocean": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Polar": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-River": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Sandstorm": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Savanna": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Sun": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
+    "Vivillon-Tundra": [
+        [
+            "Bug",
+            "Flying"
+        ],
+        {
+            "hp": 80,
+            "atk": 52,
+            "def": 50,
+            "spa": 90,
+            "spd": 50,
+            "spe": 89
+        }
+    ],
     "Vivillon-Fancy": [
         [
             "Bug",
@@ -11961,7 +12700,111 @@
             "spe": 42
         }
     ],
+    "Flabe\u0301be\u0301-Blue": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 44,
+            "atk": 38,
+            "def": 39,
+            "spa": 61,
+            "spd": 79,
+            "spe": 42
+        }
+    ],
+    "Flabe\u0301be\u0301-Orange": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 44,
+            "atk": 38,
+            "def": 39,
+            "spa": 61,
+            "spd": 79,
+            "spe": 42
+        }
+    ],
+    "Flabe\u0301be\u0301-White": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 44,
+            "atk": 38,
+            "def": 39,
+            "spa": 61,
+            "spd": 79,
+            "spe": 42
+        }
+    ],
+    "Flabe\u0301be\u0301-Yellow": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 44,
+            "atk": 38,
+            "def": 39,
+            "spa": 61,
+            "spd": 79,
+            "spe": 42
+        }
+    ],
     "Floette": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 54,
+            "atk": 45,
+            "def": 47,
+            "spa": 75,
+            "spd": 98,
+            "spe": 52
+        }
+    ],
+    "Floette-Blue": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 54,
+            "atk": 45,
+            "def": 47,
+            "spa": 75,
+            "spd": 98,
+            "spe": 52
+        }
+    ],
+    "Floette-Orange": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 54,
+            "atk": 45,
+            "def": 47,
+            "spa": 75,
+            "spd": 98,
+            "spe": 52
+        }
+    ],
+    "Floette-White": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 54,
+            "atk": 45,
+            "def": 47,
+            "spa": 75,
+            "spd": 98,
+            "spe": 52
+        }
+    ],
+    "Floette-Yellow": [
         [
             "Fairy"
         ],
@@ -12001,6 +12844,58 @@
         }
     ],
     "Florges": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 78,
+            "atk": 65,
+            "def": 68,
+            "spa": 112,
+            "spd": 154,
+            "spe": 75
+        }
+    ],
+    "Florges-Blue": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 78,
+            "atk": 65,
+            "def": 68,
+            "spa": 112,
+            "spd": 154,
+            "spe": 75
+        }
+    ],
+    "Florges-Orange": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 78,
+            "atk": 65,
+            "def": 68,
+            "spa": 112,
+            "spd": 154,
+            "spe": 75
+        }
+    ],
+    "Florges-White": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 78,
+            "atk": 65,
+            "def": 68,
+            "spa": 112,
+            "spd": 154,
+            "spe": 75
+        }
+    ],
+    "Florges-Yellow": [
         [
             "Fairy"
         ],
@@ -12067,6 +12962,123 @@
         }
     ],
     "Furfrou": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 75,
+            "atk": 80,
+            "def": 60,
+            "spa": 65,
+            "spd": 90,
+            "spe": 102
+        }
+    ],
+    "Furfrou-Dandy": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 75,
+            "atk": 80,
+            "def": 60,
+            "spa": 65,
+            "spd": 90,
+            "spe": 102
+        }
+    ],
+    "Furfrou-Debutante": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 75,
+            "atk": 80,
+            "def": 60,
+            "spa": 65,
+            "spd": 90,
+            "spe": 102
+        }
+    ],
+    "Furfrou-Diamond": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 75,
+            "atk": 80,
+            "def": 60,
+            "spa": 65,
+            "spd": 90,
+            "spe": 102
+        }
+    ],
+    "Furfrou-Heart": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 75,
+            "atk": 80,
+            "def": 60,
+            "spa": 65,
+            "spd": 90,
+            "spe": 102
+        }
+    ],
+    "Furfrou-Kabuki": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 75,
+            "atk": 80,
+            "def": 60,
+            "spa": 65,
+            "spd": 90,
+            "spe": 102
+        }
+    ],
+    "Furfrou-La Reine": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 75,
+            "atk": 80,
+            "def": 60,
+            "spa": 65,
+            "spd": 90,
+            "spe": 102
+        }
+    ],
+    "Furfrou-Matron": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 75,
+            "atk": 80,
+            "def": 60,
+            "spa": 65,
+            "spd": 90,
+            "spe": 102
+        }
+    ],
+    "Furfrou-Pharaoh": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 75,
+            "atk": 80,
+            "def": 60,
+            "spa": 65,
+            "spd": 90,
+            "spe": 102
+        }
+    ],
+    "Furfrou-Star": [
         [
             "Normal"
         ],
@@ -14170,6 +15182,90 @@
             "spe": 120
         }
     ],
+    "Minior-Orange": [
+        [
+            "Rock",
+            "Flying"
+        ],
+        {
+            "hp": 60,
+            "atk": 100,
+            "def": 60,
+            "spa": 100,
+            "spd": 60,
+            "spe": 120
+        }
+    ],
+    "Minior-Yellow": [
+        [
+            "Rock",
+            "Flying"
+        ],
+        {
+            "hp": 60,
+            "atk": 100,
+            "def": 60,
+            "spa": 100,
+            "spd": 60,
+            "spe": 120
+        }
+    ],
+    "Minior-Green": [
+        [
+            "Rock",
+            "Flying"
+        ],
+        {
+            "hp": 60,
+            "atk": 100,
+            "def": 60,
+            "spa": 100,
+            "spd": 60,
+            "spe": 120
+        }
+    ],
+    "Minior-Blue": [
+        [
+            "Rock",
+            "Flying"
+        ],
+        {
+            "hp": 60,
+            "atk": 100,
+            "def": 60,
+            "spa": 100,
+            "spd": 60,
+            "spe": 120
+        }
+    ],
+    "Minior-Indigo": [
+        [
+            "Rock",
+            "Flying"
+        ],
+        {
+            "hp": 60,
+            "atk": 100,
+            "def": 60,
+            "spa": 100,
+            "spd": 60,
+            "spe": 120
+        }
+    ],
+    "Minior-Violet": [
+        [
+            "Rock",
+            "Flying"
+        ],
+        {
+            "hp": 60,
+            "atk": 100,
+            "def": 60,
+            "spa": 100,
+            "spd": 60,
+            "spe": 120
+        }
+    ],
     "Minior-Meteor": [
         [
             "Rock",
@@ -15921,6 +17017,110 @@
         }
     ],
     "Alcremie": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 65,
+            "atk": 60,
+            "def": 75,
+            "spa": 110,
+            "spd": 121,
+            "spe": 64
+        }
+    ],
+    "Alcremie-Ruby-Cream": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 65,
+            "atk": 60,
+            "def": 75,
+            "spa": 110,
+            "spd": 121,
+            "spe": 64
+        }
+    ],
+    "Alcremie-Matcha-Cream": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 65,
+            "atk": 60,
+            "def": 75,
+            "spa": 110,
+            "spd": 121,
+            "spe": 64
+        }
+    ],
+    "Alcremie-Mint-Cream": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 65,
+            "atk": 60,
+            "def": 75,
+            "spa": 110,
+            "spd": 121,
+            "spe": 64
+        }
+    ],
+    "Alcremie-Lemon-Cream": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 65,
+            "atk": 60,
+            "def": 75,
+            "spa": 110,
+            "spd": 121,
+            "spe": 64
+        }
+    ],
+    "Alcremie-Salted-Cream": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 65,
+            "atk": 60,
+            "def": 75,
+            "spa": 110,
+            "spd": 121,
+            "spe": 64
+        }
+    ],
+    "Alcremie-Ruby-Swirl": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 65,
+            "atk": 60,
+            "def": 75,
+            "spa": 110,
+            "spd": 121,
+            "spe": 64
+        }
+    ],
+    "Alcremie-Caramel-Swirl": [
+        [
+            "Fairy"
+        ],
+        {
+            "hp": 65,
+            "atk": 60,
+            "def": 75,
+            "spa": 110,
+            "spd": 121,
+            "spe": 64
+        }
+    ],
+    "Alcremie-Rainbow-Swirl": [
         [
             "Fairy"
         ],
@@ -19839,6 +21039,20 @@
             "spe": 100
         }
     ],
+    "Pokestar UFO-PropU1": [
+        [
+            "Flying",
+            "Electric"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
     "Pokestar UFO-2": [
         [
             "Psychic",
@@ -19867,7 +21081,34 @@
             "spe": 100
         }
     ],
+    "Pokestar Brycen-Man-Prop": [
+        [
+            "Dark",
+            "Psychic"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
     "Pokestar MT": [
+        [
+            "Steel"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
+    "Pokestar MT-Prop": [
         [
             "Steel"
         ],
@@ -19894,7 +21135,34 @@
             "spe": 100
         }
     ],
+    "Pokestar MT2-Prop": [
+        [
+            "Steel",
+            "Electric"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
     "Pokestar Transport": [
+        [
+            "Steel"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
+    "Pokestar Transport-Prop": [
         [
             "Steel"
         ],
@@ -19920,7 +21188,59 @@
             "spe": 100
         }
     ],
+    "Pokestar Giant-2": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
+    "Pokestar Giant-PropO1": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
+    "Pokestar Giant-PropO2": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
     "Pokestar Humanoid": [
+        [
+            "Normal"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
+    "Pokestar Humanoid-Prop": [
         [
             "Normal"
         ],
@@ -19946,7 +21266,34 @@
             "spe": 100
         }
     ],
+    "Pokestar Monster-Prop": [
+        [
+            "Dark"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
     "Pokestar F-00": [
+        [
+            "Steel",
+            "Normal"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
+    "Pokestar F-00-Prop": [
         [
             "Steel",
             "Normal"
@@ -19974,7 +21321,35 @@
             "spe": 100
         }
     ],
+    "Pokestar F-002-Prop": [
+        [
+            "Steel",
+            "Normal"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
     "Pokestar Spirit": [
+        [
+            "Dark",
+            "Ghost"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
+    "Pokestar Spirit-Prop": [
         [
             "Dark",
             "Ghost"
@@ -20001,6 +21376,19 @@
             "spe": 100
         }
     ],
+    "Pokestar Black Door-Prop": [
+        [
+            "Grass"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
     "Pokestar White Door": [
         [
             "Fire"
@@ -20014,7 +21402,33 @@
             "spe": 100
         }
     ],
+    "Pokestar White Door-Prop": [
+        [
+            "Fire"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
     "Pokestar Black Belt": [
+        [
+            "Fighting"
+        ],
+        {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spa": 100,
+            "spd": 100,
+            "spe": 100
+        }
+    ],
+    "Pokestar Black Belt-Prop": [
         [
             "Fighting"
         ],
