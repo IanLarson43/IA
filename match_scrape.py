@@ -1,9 +1,46 @@
 import json
 import requests
 import time
-from main import Team
 
+def create_team(team_list):
+    mons = []
+    count = 1
+    done = False
+    while not done:
+        try:
+            mon_name = team_list[count]
+            count += 1
+            if team_list[count] in item_file:
+                mon_item = team_list[count]
+                count += 1
+            else:
+                mon_item = "None"
+            mon_ability = team_list[count]
+            count += 1
+            mon_moves = []
+            for move in team_list[count].split(","):
+                if move in move_file:
+                    mon_moves.append(move)
+                count += 1
+            while len(mon_moves) < 4:
+                mon_moves.append("None")
+            mon_tera = team_list[count].strip(",")
+            count += 1
+
+            mons.append(
+                {
+                    "name": mon_name,
+                    "item": mon_item,
+                    "ability": mon_ability,
+                    "moves": mon_moves,
+                    "tera": mon_tera,
+                }
+            )
+        except IndexError:
+            done = True
 file = open("data/match_data.json", "w")
+item_file = json.load(open("data/item_data.json"))
+move_file = json.load(open("data/move_data.json"))
 matches = []
 
 for page in range(1, 2):
@@ -31,10 +68,10 @@ for page in range(1, 2):
                     if not (i == "" or i == "M" or i == "F" or i == "50"):
                         temp_list.append(i)
                 if player == 0:
-                    p1_team = Team(temp_list)
+                    p1_team = create_team(temp_list)
                     player = 1
                 else:
-                    p2_team = Team(temp_list)
+                    p2_team = create_team(temp_list)
                     player = 0
 
             if line.startswith("|win|"):
