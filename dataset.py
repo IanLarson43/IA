@@ -9,7 +9,8 @@ def list_to_id_dict(a_list):
     return a_dict
 
 
-dataset_dict = {}
+matchup_dict = {}
+winner_dict = {}
 
 pokemon_file = json.load(open("data/pokemon_data.json"))
 ability_file = json.load(open("data/ability_data.json"))
@@ -51,6 +52,8 @@ tera_dict = list_to_id_dict(tera_list)
 
 for match in range(len(match_file)):
     match_dataset = []
+    winner_dataset = []
+
     for mon in match_file[match]["p0 team"]:
         match_dataset.append(pokemon_dict[mon["name"]])
         match_dataset.append(item_dict[mon["item"]])
@@ -89,6 +92,8 @@ for match in range(len(match_file)):
 
     match_dataset.append(match_file[match]["winner"])
 
-    dataset_dict[f"match {match}"] = np.array(match_dataset, dtype=np.int32)
+    matchup_dict[f"match {match}"] = np.array(match_dataset)
+    winner_dict[f"match {match}"] = np.array(winner_dataset)
 
-np.savez("data/dataset.npz", **dataset_dict)
+np.savez("data/matchups.npz", **matchup_dict)
+np.savez("data/winner.npz", **winner_dict)

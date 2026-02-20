@@ -2,22 +2,28 @@ import lightgbm as lgb
 import json
 import numpy as np
 
-file = np.load("data/dataset.npz")
+matchups_file = np.load("data/matchups.npz")
+winner_file = np.load("data/winner.npz")
+
+file = open("data/model.json")
+
 param = {}
 num_round = 10
 
 train_data = []
 validation_data = []
 
-for match in file:
-    teams = file[match][:-1]
-    result = file[match][-1].item()
+for match in matchups_file:
+    train_data.append(matchups_file[match])
+    validation_data.append(winner_file[match])
 
-    train_data.append(teams)
-    validation_data.append(result)
+    cat_indices = []
+    for i in range(len(train_data)):
+        cat_indices.append(i)
 
-print(train_data)
-bst = lgb.train(param, train_data, num_round, valid_sets=[validation_data])
+train_set = lgb.Dataset(train_data, label=validation_data, categorical_feature=cat_indices)
+
+bst = lgb.train(param, train_set, num_round)
 
 json_model = bst.dump_model()
 json.dump(json_model, file, indent=4)
