@@ -1,9 +1,6 @@
 import json
 import requests
-
-
-def clean_string(string):
-    return string.replace(" ", "").replace("-", "").replace("'", "")
+from utils import clean_string
 
 
 file = open("data/pokemon_data.json", "w")
