@@ -2,10 +2,11 @@ import lightgbm
 import numpy as np
 import requests
 from pathlib import Path
+from dataset import create_dataset
 from predict import predict
 from train import train
 from match_scrape import match_scrape
-from utils import pokepaste_to_list
+from utils import pokepaste_to_number_dict
 
 
 def run_cli():
@@ -27,14 +28,14 @@ def run_cli():
             return
 
         try:
-            team1_list = pokepaste_to_list(team1)
+            team1_list = list(pokepaste_to_number_dict(team1).values())
         except KeyError:
             print("Invalid team")
             run_cli()
             return
 
         try:
-            team2_list = pokepaste_to_list(team2)
+            team2_list = list(pokepaste_to_number_dict(team2).values())
         except KeyError:
             print("Invalid team")
             run_cli()
@@ -63,6 +64,7 @@ def run_cli():
             match_scrape(100)
             print("Done")
             print("Creating dataset...")
+            create_dataset()
             print("Done")
             print("Training model...")
             train(file_name)

@@ -23,20 +23,28 @@ def create_team(team_list):
                 if move in move_file:
                     mon_moves.append(move)
             count += 1
-            while len(mon_moves) < 4:
-                mon_moves.append("None")
             mon_tera = team_list[count].strip(",")
             count += 1
 
-            mons.append(
-                {
-                    "name": mon_name,
-                    "item": mon_item,
-                    "ability": mon_ability,
-                    "moves": mon_moves,
-                    "tera": mon_tera,
-                }
-            )
+            if mon_item != "None":
+                mons.append(
+                    {
+                        "name": mon_name,
+                        "item": mon_item,
+                        "ability": mon_ability,
+                        "moves": mon_moves,
+                        "tera": mon_tera,
+                    }
+                )
+            else:
+                mons.append(
+                    {
+                        "name": mon_name,
+                        "ability": mon_ability,
+                        "moves": mon_moves,
+                        "tera": mon_tera,
+                    }
+                )
         except IndexError:
             done = True
     return mons
